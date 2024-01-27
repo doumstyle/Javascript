@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+ul li {
+  border: 2px solid gray;
+  border-radius: 8px;
+  padding: 1rem;
+  margin: 1rem;
+  list-style-type: none;
+}
+
+ul li input:checked {
+  accent-color: #8a1cca;
+}
+
+ul li:has(input:checked) {
+  border-color: #8a1cca;
+}
